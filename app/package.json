@@ -1,0 +1,23 @@
+{
+	"name": "node-mysql-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"docker",
+		"mysql",
+		"nodejs"
+	],
+	"author": "FrasNym",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mysql2": "^2.2.5",
+		"sequelize": "^6.5.0"
+	}
+}
